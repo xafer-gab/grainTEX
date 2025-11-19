@@ -165,9 +165,3 @@ def regrain(audio_path, grao_sr_min, grao_sr_max, chunk_dur_min, chunk_dur_max, 
 
 def grava_audio(nome, arquivo, sr=44000):
     sf.write(nome, arquivo, sr)
-
-
-audio_path = r"/home/gxavier/scripts/graintex/teste.wav"
-
-#aud = regrain(audio_path, 2000, 2001, 0.5, 0.6, fade=1000)
-#grava_audio(aud, sr=44100)
