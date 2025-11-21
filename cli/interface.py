@@ -60,7 +60,6 @@ def menu_granA():
     aleatorio = False
     reverso = False
     while True:
-        print("\n--- Granulador B - Iterador Caminhante ---")
         print("\n--- Granulador A - Iterador Fixo ---")
         print("\n1. Executar granulação")
         print("2. Configurações")
